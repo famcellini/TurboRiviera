@@ -1,13 +1,13 @@
 # Turbo Riviera: install on the LG 27TQ615S-PZ monitor
 
-File to install: `turboRiviera.v01.0.ipk`
+File to install: `turboRiviera.ipk`
 
 Turbo Riviera is a 90s-style arcade road racer (pseudo-3D road, red convertible, curves, hills, traffic, a countdown timer and forks). Name, graphics and music are original: no Sega material.
 
 ## Install
 The monitor is already set up (Developer Mode on, as for Super Eleonora).
 1. Open webOS Dev Manager on the PC (monitor and PC on the same network).
-2. **Apps** tab → **Install** (or drag the `.ipk` file into the window) and pick `turboRiviera.v01.0.ipk`.
+2. **Apps** tab → **Install** (or drag the `.ipk` file into the window) and pick `turboRiviera.ipk`.
 3. Turbo Riviera appears among the monitor's apps with the convertible-at-sunset icon.
 
 Remember: Developer Mode expires after about 50 hours; to renew it open the Developer Mode app and press "Extend".
@@ -55,7 +55,7 @@ Ways that work:
 
 ## Update and modify
 - To update just install the new `.ipk`: it replaces the old version and the high scores are kept.
-- Sources are in `turbo-riviera-sorgenti.zip` and on https://github.com/famcellini/turboRiviera.v01.0 (`app` folder: `index.html`, `game.js` road and rules, `gfx.js` drawings, `audio.js` sound effects and music composition, `music.js` pre-recorded tracks, `appinfo.json`, icons). You can also try it in a browser by opening `index.html` (arrows, Enter, R = radio, M = sound, Esc = pause).
+- Sources are in `turbo-riviera-sorgenti.zip` and on https://github.com/famcellini/TurboRiviera (`app` folder: `index.html`, `game.js` road and rules, `gfx.js` drawings, `audio.js` sound effects and music composition, `music.js` pre-recorded tracks, `appinfo.json`, icons). You can also try it in a browser by opening `index.html` (arrows, Enter, R = radio, M = sound, Esc = pause).
 - To rebuild the package: `npm install -g @webos-tools/cli` then `ares-package app`.
 
 
