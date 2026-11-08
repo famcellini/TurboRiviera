@@ -2,8 +2,8 @@
 
 An original 90s-style arcade road racer for LG webOS TVs: a red convertible, a pseudo-3D road with
 curves and hills, traffic, a countdown timer and forks that let you choose your route through a 4-stage route tree (Fermo, Macerata, Ancona, Ascoli Piceno, Pesaro Urbino), repeated over 4 levels with puddles and more traffic from level 2.
-Name, graphics and music are original (no Sega assets). Road signs show towns and
-provinces of the Fermo area (Marche, Italy).
+Name, graphics and music are original (no Sega assets). Road signs show towns from
+each province of the Marche region (Italy).
 
 ![Game](screenshots/game.png)
 
@@ -25,7 +25,7 @@ To build it yourself: `ares-package app`.
 
 ## AI disclosure
 Turbo Riviera was designed by the author: concept, game rules, route forks and the 15 stages,
-the Fermo-area setting with local towns, and the remote-control layout.
+the Marche setting with towns from each province, and the remote-control layout.
 The code was developed with the help of an AI assistant (Claude): the author wrote and modified
 parts of the code by hand and reviewed all of the AI-generated code. Graphics and music were
 generated with the AI assistant following the author's direction.
