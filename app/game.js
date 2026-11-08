@@ -311,6 +311,11 @@
     if (document.hidden) { if (state === 'play' || state === 'count') { state = 'pause'; pauseSel = 0; } A.suspend(true); }
     else A.suspend(false);
   });
+  // il menu rapido del telecomando (ingranaggio) copre l'app senza nasconderla: la finestra perde solo il focus
+  window.addEventListener('blur', function () {
+    for (var k in keys) keys[k] = false;
+    if (state === 'play' || state === 'count') { state = 'pause'; pauseSel = 0; }
+  });
 
   function nextStation(d) {
     station = (station + d + 3) % 3; store.set('tr_station', station);
