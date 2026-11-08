@@ -25,7 +25,7 @@ To build it yourself: `ares-package app`.
 
 ## AI disclosure
 Turbo Riviera was designed by the author: concept, game rules, route forks and the 15 stages,
-the Fermo-area setting with local towns and businesses, and the remote-control layout.
+the Fermo-area setting with local towns, and the remote-control layout.
 The code was developed with the help of an AI assistant (Claude): the author wrote and modified
 parts of the code by hand and reviewed all of the AI-generated code. Graphics and music were
 generated with the AI assistant following the author's direction.
